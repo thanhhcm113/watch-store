@@ -1,0 +1,1 @@
+body{counter-reset:checkout-progress;}.checkout-progress--step{display:inline;padding-right:1em;}.checkout-progress--step:before{content:counter(checkout-progress) ". ";counter-increment:checkout-progress;}.checkout-progress--step__current{font-weight:bold;}
